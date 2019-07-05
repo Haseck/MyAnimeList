@@ -1,0 +1,25 @@
+{
+  "name": "mal-list-designs",
+  "version": "1.0.0",
+  "description": "Custom designs for MyAnimeList",
+  "main": "gulpfile.js",
+  "scripts": {
+    "ncus": "ncu -u -l verbose -n -t -i",
+    "ncusg": "ncu -u -g -l verbose -n -t -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haseck/MAL-list-designs.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "gulp"
+  ],
+  "author": "Haseck <haseck12@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haseck/MAL-list-designs/issues"
+  },
+  "homepage": "https://github.com/Haseck/MAL-list-designs#readme"
+}
