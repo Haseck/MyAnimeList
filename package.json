@@ -2,7 +2,7 @@
   "name": "mal-list-designs",
   "version": "1.0.0",
   "description": "Custom designs for MyAnimeList",
-  "main": "gulpfile.js",
+  "main": "gulpfile.babel.js",
   "scripts": {
     "ncus": "ncu -u -l verbose -n -t -i",
     "ncusg": "ncu -u -g -l verbose -n -t -i"
@@ -13,6 +13,7 @@
   },
   "keywords": [
     "css",
+    "sass",
     "scss",
     "gulp"
   ],
@@ -21,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/Haseck/MAL-list-designs/issues"
   },
-  "homepage": "https://github.com/Haseck/MAL-list-designs#readme"
+  "homepage": "https://github.com/Haseck/MAL-list-designs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/register": "^7.4.4",
+    "gulp": "^4.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-normalize-scss": "^8.0.0"
+  }
 }
