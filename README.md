@@ -1,1 +1,1 @@
-# MAL-list-designs
+# MyAnimeList

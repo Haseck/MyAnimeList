@@ -1,7 +1,7 @@
 {
-  "name": "mal-list-designs",
+  "name": "myanimelist",
   "version": "1.0.0",
-  "description": "Custom designs for MyAnimeList",
+  "description": "Custom designs for MyAnimeList and others things",
   "main": "gulpfile.babel.js",
   "scripts": {
     "ncus": "ncu -u -l verbose -n -t -i",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Haseck/MAL-list-designs.git"
+    "url": "git+https://github.com/Haseck/MyAnimeList.git"
   },
   "keywords": [
     "css",
@@ -21,9 +21,9 @@
   "author": "Carlos Esparza <haseck12@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Haseck/MAL-list-designs/issues"
+    "url": "https://github.com/Haseck/MyAnimeList/issues"
   },
-  "homepage": "https://github.com/Haseck/MAL-list-designs#readme",
+  "homepage": "https://github.com/Haseck/MyAnimeList#readme",
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
