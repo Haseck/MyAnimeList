@@ -15,3 +15,11 @@ ehthumbs.db
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+### Adobe ###
+# Adobe Source Files
+*.psd
+
+### Own ###
+# images
+src/image/
