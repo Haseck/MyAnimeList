@@ -3,7 +3,7 @@ import gif from 'gulp-if'
 import imgmin from 'gulp-imagemin'
 import gsm from 'gulp-sourcemaps'
 
-const sourcemaps = true,
+const sourcemaps = false,
   paths = {
     scss: {
       src: './src/scss/*.scss',
