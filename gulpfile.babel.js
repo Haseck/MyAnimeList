@@ -7,12 +7,12 @@ const sourcemaps = false,
   paths = {
     scss: {
       src: './src/scss/*.scss',
-      dest: './dist/css',
+      dest: 'C:\\Users\\Esparza\\Dropbox\\myanimelist\\css',
       wtc: './src/scss/**/*.scss'
     },
     img: {
       src: './src/image/**/*.png',
-      dest: './dist/image'
+      dest: 'C:\\Users\\Esparza\\Dropbox\\myanimelist\\image'
     }
   },
   sass = () => {
