@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, :after, :before {
+  box-sizing: inherit;
+}
+*, :active, :focus, :hover {
+  outline: none;
+}
+body {
+  color: #fff;
+  background: #16151c;
+  font-size: 10px;
+  @media screen and (min-width: 81.25em) {
+    @each $ct, $smct in $cat {
+      &[data-query*="#{map-get($smct, 'status')}"][data-owner="1"]:before {
+        border-radius: 0 10px 10px 0;
+      }
+      &[data-query*="#{map-get($smct, 'status')}"] {
+        &::before, &::after {
+          position: fixed;
+          left: 50px;
+        }
+        &::before {
+          background-color: rgba(map-get($smct, 'color'), 0.4);
+          border-radius: 10px;
+          color: #eee;
+          content: map-get($smct, 'rend-name');
+          padding: 6px;
+          text-shadow: 1px 1px 3px #000;
+          top: 20%;
+          white-space: pre-wrap;
+        }
+        &::after {
+          background-image: rend(map-get($smct, 'rend-cod'), $ct);
+          content: '';
+          height: 390px;
+          top: calc(20% + 50px);
+          width: 210px;
+        }
+      }
+    }
+  }
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  &:hover {
+    color: inherit;
+  }
+}
+// list position
+.list-container {
+  margin-right: 20px;
+}
+.list-block {
+  margin-top: 20px;
+}
+.list-unit, .list-unit .list-status-title {
+  width: 100%;
+}
+.list-container, .list-table, .list-table .list-table-data .data {
+  border: none;
+}
+.list-container, .list-table > tbody:nth-of-type(odd) {
+  background-color: transparent;
+}
+::selection {
+  background-color: #38c2bf;
+  color: #eee;
+  text-shadow: 2px 1px #000;
+}

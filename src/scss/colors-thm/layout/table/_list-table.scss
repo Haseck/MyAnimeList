@@ -1,0 +1,75 @@
+.list-table-data {
+  @each $ct, $mct in $cat {
+    .list-table & .#{$ct} ~ .title a:not(.edit-disabled) {
+      text-shadow: 10px 0 transparent, -10px 0 transparent;
+      transition: all .2s linear;
+      &:hover {
+        color: rgba(map-get($mct, 'color'), 0.4);
+        text-decoration: none !important;
+        text-shadow: 0 0 rgba(map-get($mct, 'color'), 0.4);
+      }
+    }
+  }
+  & .data.title .link {
+    font-size: 1.4em;
+    font-weight: 400;
+    &:hover:before {
+      background-size: 100% 100%;
+      border-radius: 10px;
+      content: '';
+      display: inline-block;
+      height: 330px;
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      transition: all 0.4s;
+      width: 205px;
+      z-index: 2;
+    }
+  }
+  & .data.title .content-status, & .data.title .rereading, & .data.title .rewatching {
+    background-color: hsla(0, 0%, 100%, 0.7);
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    opacity: 1;
+    padding: 2px 8px;
+    position: relative;
+    transition: all 0.4s;
+    .list-table & {
+      color: #000;
+      font-weight: 700;
+    }
+    .list-item:hover & {
+      background-color: hsla(0, 0%, 100%, .9);
+    }
+  }
+  @each $ct, $mct in $cat {
+    & > .#{$ct} ~ *, .list-table & .data.status.#{$ct} {
+      background: rgba(map-get($mct, 'color'), 0.4);
+    }
+    .list-item:hover & .data.status, .list-item:hover & > .#{$ct} ~ *, .list-item:hover .more-content {
+      background-color: transparent;
+    }
+  }
+  .list-table & .data.image .image {
+    border: none;
+    height: 100%;
+    width: 100%;
+  }
+}
+.list-table .list-table-header .header-title {
+  border-bottom: none;
+  background: none;
+  @each $ct, $smct in $cat {
+    .#{$ct} & {
+      background-color: rgba(map-get($smct, 'color'), 0.6);
+    }
+    .link.sort, .hover_info {
+      color: #fff;
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+a.icon-watch {
+  display:none;
+}
+.add-edit-more {
+  visibility:hidden;
+  .list-item:hover & {
+    visibility:visible;
+  }
+}
+.list-table .list-table-data a.edit-disabled { // number episodes watched, not logged
+  color: #fff;
+}
+@each $ct, $mct in $cat {
+  .#{$ct} > .list-stats {
+    @extend %bord;
+  }
+}
+.list-item, .list-status-title, .list-table .list-table-header .header-title {
+  @extend %bord;
+}

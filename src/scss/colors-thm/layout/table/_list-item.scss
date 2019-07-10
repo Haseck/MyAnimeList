@@ -1,0 +1,31 @@
+.list-item {
+  line-height: 1.4;
+}
+.fa.fa-plus-circle {
+  @each $ct, $mct in $cat {
+    text-shadow: 10px 0 transparent, -10px 0 transparent;
+    transition: all .2s linear;
+    .#{$ct} ~ td &:hover {
+      color: rgba(map-get($mct, 'color'), 0.4);
+      text-shadow: 0 0 rgba(map-get($mct, 'color'), 0.4);
+    }
+  }
+  &::before {
+    content: 'a';
+    font-family: mal;
+  }
+}
+.more-content {
+  & a {
+    $col: #9370db;
+    color: $col;
+    &:hover {
+      color: darken($col, 10);
+    }
+  }
+  @each $ct, $smct in $cat {
+    .#{$ct} & {
+      background-color: rgba(map-get($smct, 'color'), 0.15);
+    }
+  }
+}

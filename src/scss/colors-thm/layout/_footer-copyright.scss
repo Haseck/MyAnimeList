@@ -1,0 +1,19 @@
+#footer-block {
+  padding: 4px;
+  @each $ct, $smct in $cat {
+    body[data-query*="#{map-get($smct, 'status')}"] & {
+      background: map-get($smct, 'color');
+    }
+  }
+}
+#copyright {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px #000;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

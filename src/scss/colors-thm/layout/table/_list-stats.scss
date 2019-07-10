@@ -1,0 +1,12 @@
+@each $ct, $smct in $cat {
+  .list-status-title {
+    border-radius: 10px 10px 0 0;
+    .#{$ct} > & {
+      background-color: rgba(map-get($smct, 'color'), 0.8);
+    }
+  }
+  .#{$ct} > .list-stats {
+    background-color: rgba(map-get($smct, 'color'), 0.6);
+    width: 100%;
+  }
+}

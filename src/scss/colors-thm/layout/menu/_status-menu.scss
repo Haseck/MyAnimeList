@@ -1,0 +1,17 @@
+.status-menu {
+  &-container {
+    background-color: rgba(#000, 0.6);
+    border-bottom: none;
+    border-radius: 10px;
+    height: auto;
+    &.fixed {
+      background-color: rgba(#000, 0.9);
+      border-radius: 0 0 10px 10px;
+    }
+  }
+  @each $ct, $smct in $cat {
+    & .status-button.#{$ct}:after {
+      background-color: rgba(map-get($smct, 'color'), 0.8);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.list-menu-float {
+  border: none;
+  & .icon-menu:not(.profile) {
+    background:#ddd;
+  }
+  .icon-menu {
+    &.setting:hover .text .link-list-setting, &.setting:hover .text .link-style-setting {
+      background-color: #444;
+      &:hover {
+        background-color: #373737;
+      }
+    }
+    &:not(.profile):hover {
+      background-color: #444;
+    }
+  }
+}
