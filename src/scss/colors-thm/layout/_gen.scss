@@ -13,10 +13,10 @@ body {
   font-size: 10px;
   @media screen and (min-width: 81.25em) {
     @each $ct, $smct in $cat {
-      &[data-query*="#{map-get($smct, 'status')}"][data-owner="1"]:before {
-        border-radius: 0 10px 10px 0;
-      }
       &[data-query*="#{map-get($smct, 'status')}"] {
+        &[data-owner="1"]:before {
+          border-radius: 0 10px 10px 0;
+        }
         &::before, &::after {
           position: fixed;
           left: 50px;

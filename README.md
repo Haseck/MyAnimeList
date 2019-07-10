@@ -5,20 +5,26 @@
 ## **Contents**
 - [***Themes***](#Themes)
   - [*Colors*](#colors-thm)
+- [***Others***](#Others)
+  - [*Covers*](#Covers)
 - [***Contact***](#Contact)
 ---
-> Everything, both code and images, are in the following Dropbox folder : [**link**](https://www.dropbox.com/sh/cs283ctwppk5ybs/AABBVENrQQg4EH2h3ykTIPXSa).
+> Everything, both code(minify) and images, are in the following Dropbox folder : [**link**](https://www.dropbox.com/sh/cs283ctwppk5ybs/AABBVENrQQg4EH2h3ykTIPXSa). 
 ---
-
-### ***Themes***
+### *Themes*
 ---
 ## **Colors**
 **How to use**
-- ***Anime*** : `@import url('https://dl.dropboxusercontent.com/sh/cs283ctwppk5ybs/AAArDbJAd6jd2dY0uIjR4asta/css/colors-thm.css')`
+- ***Both (Anime|manga)*** : `@\import "https://dl.dropboxusercontent.com/sh/cs283ctwppk5ybs/AAArDbJAd6jd2dY0uIjR4asta/css/colors-thm.css"`
 ---
-## *Contact*
+### *Others*
+- #### Covers
+  - [MALscraper - Azurwebsites](https://malscraper.azurewebsites.net/covers)
+---
+### *Contact*
 Want to share your design here? Any bug?
-- Create a new [issue](https://github.com/Haseck/MyAnimeList/issues/new) (only if you found a bug)
-- PM me in MyAnimeList : [Haseck](https://myanimelist.net/mymessages.php?go=send&toname=Haseck)
-- Email me : haseck12@gmail.com
+- Create a new [**issue**](https://github.com/Haseck/MyAnimeList/issues/new) (only if you found a bug)
+- PM me in MyAnimeList : [**Haseck**](https://myanimelist.net/mymessages.php?go=send&toname=Haseck)
+- Email me : **haseck12@gmail.com**
 ---
+<h6 align=right><a href="https://myanimelist.net/profile/rl404">rl404</a></h6>
