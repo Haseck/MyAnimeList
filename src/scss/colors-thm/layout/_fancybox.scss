@@ -6,22 +6,16 @@
   &-wrap {
     box-sizing: content-box;
     position: fixed !important;
-    top: 5% !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
   }
   &-close {
     display: none !important;
   }
-}
-div#fancybox {
-  &-outer, &-inner {
-    box-sizing: content-box;
-    padding: 50px;
-  }
-  &-outer {
-    background-color: #1c1c1c;
-  }
-  &-inner {
-    box-shadow: inset 0 0 0 1px #5c5c5c;
-    color: #ccc;
+  @at-root div#{&} {
+    &-inner {
+      box-shadow: 0 0 0 1px #5c5c5c;
+    }
   }
 }

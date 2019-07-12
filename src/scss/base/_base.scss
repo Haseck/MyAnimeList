@@ -1,0 +1,10 @@
+@import 'normalize';
+html {
+  box-sizing: border-box;
+}
+*, :after, :before {
+  box-sizing: inherit;
+}
+*, :active, :focus, :hover {
+  outline: none;
+}
