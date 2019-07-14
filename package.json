@@ -1,7 +1,7 @@
 {
   "name": "myanimelist",
   "version": "1.0.0",
-  "description": "Custom designs for MyAnimeList and others things",
+  "description": "Custom designs and other things for MyAnimeList",
   "main": "gulpfile.babel.js",
   "scripts": {
     "ncus": "ncu -u -l verbose -n -t -i",
@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/Haseck/MyAnimeList#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
     "gulp": "^4.0.2",
     "gulp-cssnano": "^2.1.3",

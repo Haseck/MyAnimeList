@@ -35,6 +35,6 @@ const sourcemaps = false,
   }
 
 exports.default = () => {
-  watch(paths.scss.wtc, series(sass))
-  watch(paths.img.src, series(img))
+  watch(paths.scss.wtc, { events: 'all' }, series(sass))
+  watch(paths.img.src, { events: 'all' }, series(img))
 }

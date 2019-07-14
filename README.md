@@ -1,6 +1,6 @@
 <h1 style="text-align:center;font-weight:bold">MyAnimeList</h1>
 
-> [**Haseck**](https://myanimelist.net/profile/Haseck "Haseck's Profile")'s custom designs for MyAnimeList and other things
+> [**Haseck**](https://myanimelist.net/profile/Haseck "Haseck's Profile")'s custom designs and other things for MyAnimeList
 ---
 ## **Contents**
 - [***Themes***](#Themes)
@@ -19,7 +19,7 @@
 ---
 ### *Others*
 - #### Covers
-  - [MALscraper - Azurwebsites](https://malscraper.azurewebsites.net/covers)
+  - [MALscraper - Azurewebsites](https://malscraper.azurewebsites.net/covers)
 ---
 ### *Contact*
 Want to share your design here? Any bug?

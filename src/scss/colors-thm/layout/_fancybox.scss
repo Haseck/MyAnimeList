@@ -1,21 +1,18 @@
 #fancybox {
+  &-close {
+    display: none !important;
+  }
   &-overlay {
     background-color: rgba(28, 28, 28, .6) !important;
     opacity: 1 !important;
   }
-  &-wrap {
-    box-sizing: content-box;
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%);
-  }
-  &-close {
-    display: none !important;
-  }
   @at-root div#{&} {
     &-inner {
       box-shadow: 0 0 0 1px #5c5c5c;
+    }
+    &-wrap {
+      box-sizing: content-box;
+      position: fixed;
     }
   }
 }
