@@ -1,6 +1,6 @@
 @mixin link-effect($col:#ff004d) {
   text-shadow: 10px 0 transparent, -10px 0 transparent;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
   &:hover {
     color: $col;
     text-decoration: none;

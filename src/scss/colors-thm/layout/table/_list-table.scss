@@ -2,7 +2,7 @@
   @each $ct, $mct in $cat {
     .list-table & .#{$ct} ~ .title a:not(.edit-disabled) {
       text-shadow: 10px 0 transparent, -10px 0 transparent;
-      transition: all .2s linear;
+      transition: all 0.2s linear;
       &:hover {
         color: rgba(map-get($mct, 'color'), 0.4);
         text-decoration: none !important;
@@ -18,12 +18,11 @@
       border-radius: 10px;
       content: '';
       display: inline-block;
-      height: 330px;
       position: fixed;
       right: 10px;
+      @include size(205px, 330px); // w, h
       top: 10px;
       transition: all 0.4s;
-      width: 205px;
       z-index: 2;
     }
   }
@@ -41,7 +40,7 @@
       font-weight: 700;
     }
     .list-item:hover & {
-      background-color: hsla(0, 0%, 100%, .9);
+      background-color: hsla(0, 0%, 100%, 0.9);
     }
   }
   @each $ct, $mct in $cat {
@@ -54,8 +53,7 @@
   }
   .list-table & .data.image .image {
     border: none;
-    height: 100%;
-    width: 100%;
+    @include size(100%);
   }
 }
 .list-table .list-table-header .header-title {

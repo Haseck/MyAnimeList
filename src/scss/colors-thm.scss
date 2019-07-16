@@ -1,1 +1,22 @@
-@import 'colors-thm/main';
+@import 'base/base',
+
+'https://file.myfontastic.com/dEkV93qL4wZ796UvDL7GNm/icons.css', // icon fontastic 'mal'
+'https://malscraper.azurewebsites.net/covers/auto/presets/datatitlebefore', // Anime/Manga cover
+
+'colors-thm/abstracts (tools)/variables',
+'colors-thm/abstracts (tools)/mixins',
+'colors-thm/abstracts (tools)/placeholders',
+
+'colors-thm/layout/gen',
+'colors-thm/layout/header',
+'colors-thm/layout/footer-copyright',
+'colors-thm/layout/fancybox',
+
+'colors-thm/layout/table/list-table',
+'colors-thm/layout/table/list-item',
+'colors-thm/layout/table/list-stats',
+'colors-thm/layout/table/others',
+
+'colors-thm/layout/menu/status-menu',
+'colors-thm/layout/menu/menu-float'
+;

@@ -1,57 +1,51 @@
-//       watching/reading        completed              onhold                dropped               ptw/ptr                 all
+//     watching/reading          completed              onhold              dropped              ptw/ptr               all
 $c: hsl(342, 100%, 50%) hsl(192, 100%, 42%) hsl(129, 63%, 64%) hsl(200, 39%, 74%) hsl(248, 46%, 64%) hsl(38, 89%, 61%);
-$o: ();
-@for $i from 1 through length($c) {
-  $o: append($o, nth($c, random(length($c))));
-  $c: remove($c, nth($o, $i));
-}
-
 $cat: (
   'watching': (
     'status': 1,
-    'color': nth($o, 1),
+    'color': nth($c, 1),
     'rend-cod': 'AADNo8SnTCuA_y31EpyRnyDda',
     'rend-name': 'Hotaru Shidare\a[Dagashi Kashi]',
   ),
   'reading': (
     'status': 1,
-    'color': nth($o, 1),
+    'color': nth($c, 1),
     'rend-cod': 'AACeFqb8H_5kU5-nmMO1fR4La',
     'rend-name': 'Hotaru Shidare\a[Dagashi Kashi]',
   ),
   'completed': (
     'status': 2,
-    'color': nth($o, 2),
+    'color': nth($c, 2),
     'rend-cod': 'AACFvyczdnV2LJ1_55DwLQFOa',
     'rend-name': 'Rin Toosaka\a[Fate Series]',
   ),
   'onhold': (
     'status': 3,
-    'color': nth($o, 3),
+    'color': nth($c, 3),
     'rend-cod': 'AACXQipIVHRMFpFif8iqgmZMa',
     'rend-name': 'Hitagi Senjougahara\a[Monogatari Series]',
   ),
   'dropped': (
     'status': 4,
-    'color': nth($o, 4),
+    'color': nth($c, 4),
     'rend-cod': 'AADLem-1qkrRT8rLaSUNhBloa',
     'rend-name': 'Rin Toosaka\a[Fate Series]',
   ),
   'plantowatch': (
     'status': 6,
-    'color': nth($o, 5),
+    'color': nth($c, 5),
     'rend-cod': 'AAAYHR7ZlfyIudrERygmYCbia',
     'rend-name': 'Lilith Asami\a[Trinity Seven]',
   ),
   'plantoread': (
     'status': 6,
-    'color': nth($o, 5),
+    'color': nth($c, 5),
     'rend-cod': 'AADj3kezQedFgaBneRwjkToVa',
     'rend-name': 'Lilith Asami\a[Trinity Seven]',
   ),
   'all_anime': (
     'status': 7,
-    'color': nth($o, 6),
+    'color': nth($c, 6),
     'rend-cod': 'AAA4glleTOpFuyZjoHfx4b9wa',
     'rend-name': 'Mai Kawakami\a[Musaigen no Phantom World]',
   ),

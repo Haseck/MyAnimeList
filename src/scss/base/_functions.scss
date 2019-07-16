@@ -1,0 +1,7 @@
+@function rend($cod, $cate) {
+  @return url('https://dl.dropboxusercontent.com/sh/cs283ctwppk5ybs/#{$cod}/image/render/#{$cate}.png');
+}
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}

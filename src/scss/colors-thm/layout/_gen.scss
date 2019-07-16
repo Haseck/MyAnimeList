@@ -25,9 +25,8 @@ body {
         &::after {
           background-image: rend(map-get($smct, 'rend-cod'), $ct);
           content: '';
-          height: 390px;
+          @include size(210px, 390px); // w, h
           top: calc(20% + 50px);
-          width: 210px;
         }
       }
     }
