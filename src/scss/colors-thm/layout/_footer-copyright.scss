@@ -1,5 +1,6 @@
 #footer-block {
   padding: 4px;
+  font-size: 0.9em;
   @each $ct, $smct in $cat {
     body[data-query*="#{map-get($smct, 'status')}"] & {
       background: map-get($smct, 'color');

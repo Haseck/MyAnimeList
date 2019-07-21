@@ -1,3 +1,15 @@
+.list-container {
+  margin-right: 20px;
+}
+.list-unit, .list-unit .list-status-title {
+  width: 100%;
+}
+.list-container, .list-table, .list-table .list-table-data .data {
+  border: none;
+}
+.list-container, .list-table > tbody:nth-of-type(odd) {
+  background-color: transparent;
+}
 .list-table-data {
   @each $ct, $mct in $cat {
     .list-table & .#{$ct} ~ .title a:not(.edit-disabled) {

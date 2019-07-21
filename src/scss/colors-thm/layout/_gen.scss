@@ -39,22 +39,6 @@ a {
     color: inherit;
   }
 }
-// list position
-.list-container {
-  margin-right: 20px;
-}
-.list-block {
-  margin-top: 20px;
-}
-.list-unit, .list-unit .list-status-title {
-  width: 100%;
-}
-.list-container, .list-table, .list-table .list-table-data .data {
-  border: none;
-}
-.list-container, .list-table > tbody:nth-of-type(odd) {
-  background-color: transparent;
-}
 ::selection {
   background-color: #38c2bf;
   color: #eee;
