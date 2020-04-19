@@ -2,6 +2,8 @@ body {
   color: #fff;
   background: #16151c;
   font-size: 10px;
+  min-height: 100vh;
+  position: relative;
   @media screen and (min-width: 81.25em) {
     @each $ct, $smct in $cat {
       &[data-query*="#{map-get($smct, 'status')}"] {
