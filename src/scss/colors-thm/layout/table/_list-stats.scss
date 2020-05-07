@@ -4,6 +4,9 @@
     .#{$ct} > & {
       background-color: rgba(map-get($smct, 'color'), 0.8);
     }
+    .list-unit & .text {
+      width: 100%;
+    }
   }
   .#{$ct} > .list-stats {
     background-color: rgba(map-get($smct, 'color'), 0.6);
