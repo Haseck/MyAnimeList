@@ -21,13 +21,17 @@ body {
           padding: 6px;
           text-shadow: 1px 1px 3px #000;
           top: 20%;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           white-space: pre-wrap;
         }
         &::after {
           background-image: rend(map-get($smct, 'rend-cod'), $ct);
           content: '';
           @include size(210px, 390px); // w, h
-          top: calc(20% + 50px);
+          top: calc(20% + 50px + 10px);
         }
       }
     }

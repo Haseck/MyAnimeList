@@ -14,7 +14,7 @@ const sourcemaps = false,
       wtc: './src/scss/**/*.scss'
     },
     img: {
-      src: './src/image/**/*',
+      src: './src/image/**/*.png',
       dest: '../../../Dropbox/myanimelist/image'
     }
   },
