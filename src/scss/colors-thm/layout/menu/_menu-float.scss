@@ -9,7 +9,7 @@
     }
   }
   @each $ct, $smct in $cat {
-    body[data-query*="#{map-get($smct, 'status')}"] & .icon-menu {
+    body[data-query*="\"status\":#{map-get($smct, 'status')}"] & .icon-menu {
       &.setting:hover {
         width: 50px;
         .text .link-list-setting, .text .link-style-setting {

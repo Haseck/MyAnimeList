@@ -15,7 +15,7 @@
 ---
 ## **Colors**
 **How to use**
-- ***Both (Anime|manga)*** : `@\import "https://dl.dropboxusercontent.com/sh/cs283ctwppk5ybs/AAArDbJAd6jd2dY0uIjR4asta/css/colors-thm.css"`
+- ***Both (anime|manga)*** : `@\import "https://dl.dropboxusercontent.com/sh/cs283ctwppk5ybs/AAArDbJAd6jd2dY0uIjR4asta/css/colors-thm.css"`
 ---
 ### *Others*
 - #### Covers
@@ -27,4 +27,4 @@ Want to share your design here? Any bug?
 - PM me in MyAnimeList : [**Haseck**](https://myanimelist.net/mymessages.php?go=send&toname=Haseck)
 - Email me : **haseck12@gmail.com**
 ---
-<h6 align=right><a href="https://myanimelist.net/profile/rl404">rl404</a></h6>
+<h6 align=right>credits: <a href="https://myanimelist.net/profile/rl404">rl404</a></h6>

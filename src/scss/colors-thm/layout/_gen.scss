@@ -5,7 +5,8 @@ body {
   position: relative;
   @media screen and (min-width: 81.25em) {
     @each $ct, $smct in $cat {
-      &[data-query*="#{map-get($smct, 'status')}"] {
+      // body[data-query*='"status":1']:after {
+      &[data-query*="\"status\":#{map-get($smct, 'status')}"] {
         &[data-owner="1"]:before {
           border-radius: 0 10px 10px 0;
         }
